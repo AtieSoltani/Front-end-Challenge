@@ -13,7 +13,6 @@
       <!--categories-->
       <ul role="list"
           class="py-8 text-center text-white text-xl font bold grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-6">
-        <!--      bg-[url('@/static/images/img1.png')]-->
         <li class="categories cook max-w-48 h-20 rounded-lg col-span-1 ">
           آشپزی
         </li>
@@ -26,16 +25,16 @@
           سلامت
         </li>
 
-        <li class="categories max-w-48 h-20 rounded-lg col-span-1 ">
+        <li class="categories knowledge max-w-48 h-20 rounded-lg col-span-1 ">
           دانستنی
         </li>
 
-        <li class="categories max-w-48 h-20 rounded-lg col-span-1 ">
-          آشپزی
+        <li class="categories news max-w-48 h-20 rounded-lg col-span-1 ">
+          اخبار ترخینه
         </li>
 
-        <li class="categories max-w-48 h-20 rounded-lg col-span-1 ">
-          آشپزی
+        <li class="categories new max-w-48 h-20 rounded-lg col-span-1 ">
+          تازه ها
         </li>
 
       </ul>
@@ -48,7 +47,7 @@
         <li class="rounded-lg  bg-white col-span-1 ">
 
           <div class="relative pb-1 md:pb-2">
-            <img class="w-full max-h-96" src="@/static/images/img1.png">
+            <img class="w-full max-h-96" src="@/static/images/posts/post1.jpg">
             <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
               آشپزی
             </div>
@@ -98,7 +97,7 @@
         <li class="rounded-lg  bg-white col-span-1 ">
 
           <div class="relative pb-1 md:pb-2">
-            <img class="w-full max-h-96" src="@/static/images/img1.png">
+            <img class="w-full max-h-96" src="@/static/images/posts/post2.jpg">
             <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
               آشپزی
             </div>
@@ -147,7 +146,7 @@
         <li class="rounded-lg  bg-white col-span-1 ">
 
           <div class="relative pb-1 md:pb-2">
-            <img class="w-full max-h-96" src="@/static/images/img1.png">
+            <img class="w-full max-h-96" src="@/static/images/posts/post1.jpg">
             <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
               آشپزی
             </div>
@@ -196,7 +195,7 @@
         <li class="rounded-lg  bg-white col-span-1 ">
 
           <div class="relative pb-1 md:pb-2">
-            <img class="w-full max-h-96" src="@/static/images/img1.png">
+            <img class="w-full max-h-96" src="@/static/images/posts/post1.jpg">
             <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
               آشپزی
             </div>
@@ -245,7 +244,7 @@
         <li class="rounded-lg  bg-white col-span-1 ">
 
           <div class="relative pb-1 md:pb-2">
-            <img class="w-full max-h-96" src="@/static/images/img1.png">
+            <img class="w-full max-h-96" src="@/static/images/posts/post1.jpg">
             <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
               آشپزی
             </div>
@@ -324,19 +323,35 @@ export default {
 <style scoped>
 .categories {
   padding-top: 13%;
+  background-size: cover !important;
+}
+
+.categories:hover  {
+opacity: 80%;
 }
 
 .cook {
-  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/img1.png");
+  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/categories/img1.jpg");
 }
 
 .life {
-  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/img2.png");
+  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/categories/img2.jpg");
 }
 
 .health {
-  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/img2.png");
+  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/categories/img3.jpg");
 }
 
+.knowledge {
+  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/categories/img4.jpg");
+}
+
+.news {
+  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/categories/img5.jpg");
+}
+
+.new {
+  background: linear-gradient(rgba(40, 64, 102, 0.5), rgba(40, 64, 102, 0.5)), url("@/static/images/categories/img6.jpg");
+}
 
 </style>
