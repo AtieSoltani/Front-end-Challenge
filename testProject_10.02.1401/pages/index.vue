@@ -10,32 +10,38 @@
       </h4>
       <!--END title-->
 
+      <div v-if="posts && posts.results">
+        <p v-for="i in posts.results">
+          {{ i.title }}
+        </p>
+      </div>
+
       <!--categories-->
-      <ul role="list"
+      <ul role="list" v-if="posts && posts.results"
           class="py-8 text-center text-white text-xl font bold grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-6">
-        <li class="categories cook max-w-48 h-20 rounded-lg col-span-1 ">
-          آشپزی
+        <li v-for="i in posts.results" class="categories cook max-w-48 h-20 rounded-lg col-span-1 ">
+          {{ i.title }}
         </li>
 
-        <li class="categories life max-w-48 h-20 rounded-lg col-span-1 ">
-          سبک زندگی
-        </li>
+        <!--        <li class="categories life max-w-48 h-20 rounded-lg col-span-1 ">-->
+        <!--          سبک زندگی-->
+        <!--        </li>-->
 
-        <li class="categories health max-w-48 h-20 rounded-lg col-span-1 ">
-          سلامت
-        </li>
+        <!--        <li class="categories health max-w-48 h-20 rounded-lg col-span-1 ">-->
+        <!--          سلامت-->
+        <!--        </li>-->
 
-        <li class="categories knowledge max-w-48 h-20 rounded-lg col-span-1 ">
-          دانستنی
-        </li>
+        <!--        <li class="categories knowledge max-w-48 h-20 rounded-lg col-span-1 ">-->
+        <!--          دانستنی-->
+        <!--        </li>-->
 
-        <li class="categories news max-w-48 h-20 rounded-lg col-span-1 ">
-          اخبار ترخینه
-        </li>
+        <!--        <li class="categories news max-w-48 h-20 rounded-lg col-span-1 ">-->
+        <!--          اخبار ترخینه-->
+        <!--        </li>-->
 
-        <li class="categories new max-w-48 h-20 rounded-lg col-span-1 ">
-          تازه ها
-        </li>
+        <!--        <li class="categories new max-w-48 h-20 rounded-lg col-span-1 ">-->
+        <!--          تازه ها-->
+        <!--        </li>-->
 
       </ul>
       <!--END categories-->
@@ -497,9 +503,6 @@
       </ul>
       <!--END posts-->
 
-      <!--    <div v-if="posts" >-->
-      <!--      {{ posts}}-->
-      <!--    </div>-->
 
     </div>
 
@@ -513,8 +516,12 @@ export default {
 
   mounted() {
     this.$store.dispatch('getPosts')
+    this.$store.dispatch('getCategories')
   },
   computed: {
+    categories() {
+      return this.$store.getters['getCategories']
+    },
     posts() {
       return this.$store.getters['getPosts']
     },
@@ -529,8 +536,8 @@ export default {
   background-size: cover !important;
 }
 
-.categories:hover  {
-opacity: 80%;
+.categories:hover {
+  opacity: 80%;
 }
 
 .cook {

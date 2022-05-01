@@ -16,6 +16,7 @@ export const actions = {
       .get("https://tarkhineh.yasna.live/api/modular/v1/tagging-labels?slug=blog-category&including[]=image&including[]=title&including[]=slug")
       .then(function (response) {
         const posts = response.data;
+        console.log(posts.results)
         context.commit('setPosts', posts)
       })
       .catch(function (error) {
