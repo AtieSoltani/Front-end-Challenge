@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IRANYekanRd";
+  src: url('~/assets/styles/fonts/iranyekan.ttf');
+}
+
+
+*{
+  direction: rtl;
+  font-family: "IRANYekanRd", serif;
+}
+
