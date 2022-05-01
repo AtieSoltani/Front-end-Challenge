@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e014681-4e47-4845-9826-8dfcaf31e37c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/testProject_10.02.1401/static/images/categories/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testProject_10.02.1401/static/images/categories/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testProject_10.02.1401/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/testProject_10.02.1401/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testProject_10.02.1401/static/images/img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testProject_10.02.1401/static/images/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testProject_10.02.1401/static/images/user1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testProject_10.02.1401/static/images/users/user1.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="28ZCtIyugjwNtcbI1ggvqYGlCUh" />
   <component name="ProjectViewState">
@@ -42,6 +48,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Hooshmand\Documents\GitHub\Front-end-Challenge\testProject_10.02.1401\static\images\posts" />
+      <recent name="C:\Users\Hooshmand\Documents\GitHub\Front-end-Challenge\testProject_10.02.1401\static\images\users" />
       <recent name="C:\Users\Hooshmand\Documents\GitHub\Front-end-Challenge\testProject_10.02.1401\static\images\categories" />
       <recent name="C:\Users\Hooshmand\Documents\GitHub\Front-end-Challenge\testProject_10.02.1401\static\images" />
     </key>
@@ -54,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651414939504</updated>
-      <workItem from="1651414945969" duration="4147000" />
+      <workItem from="1651414945969" duration="6409000" />
     </task>
     <servers />
   </component>

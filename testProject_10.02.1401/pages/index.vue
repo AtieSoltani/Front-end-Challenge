@@ -65,7 +65,7 @@
             <div class="py-6 flex items-center justify-between">
 
               <div class="flex items-center">
-                <img class="max-h-12 max-w-12" src="@/static/images/user1.jpg">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user1.jpg">
                 <div class="pr-2">
                   <p class="pb-0.5 font-bold text-sm text-[#717171]">
                     مهتاب میکاییلی
@@ -105,6 +105,156 @@
 
           <div class="px-4">
             <p class="py-2 text-[#424242]">
+              سس های سرو ماهی
+            </p>
+            <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+              کاربردهای متنوع با ...
+            </div>
+            <div class="py-6 flex items-center justify-between">
+
+              <div class="flex items-center">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user2.jpg">
+                <div class="pr-2">
+                  <p class="pb-0.5 font-bold text-sm text-[#717171]">
+                    علی رضوانی
+                  </p>
+                  <p class="font-bold text-sm text-[#717171]">
+                    1400/09/03
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.6667 2.33366V12.3337H3.30841L2.33341 13.3087V2.33366H15.6667ZM15.6667 0.666992H2.33341C1.41675 0.666992 0.666748 1.41699 0.666748 2.33366V15.3253C0.666748 16.067 1.56675 16.442 2.09175 15.917L4.00008 14.0003H15.6667C16.5834 14.0003 17.3334 13.2503 17.3334 12.3337V2.33366C17.3334 1.41699 16.5834 0.666992 15.6667 0.666992Z"
+                    fill="#717171"/>
+                </svg>
+                <p class="pr-2 text-sm text-[#717171]">
+                  5 دیدگاه
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        <li class="rounded-lg  bg-white col-span-1 ">
+
+          <div class="relative pb-1 md:pb-2">
+            <img class="w-full max-h-96" src="@/static/images/posts/post3.jpg">
+            <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
+              آشپزی
+            </div>
+          </div>
+
+          <div class="px-4">
+            <p class="py-2 text-[#424242]">
+              طرز تهیه سوپ جو خوشمزه برای 4 نفر
+            </p>
+            <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+              کاربردهای متنوع با ...
+            </div>
+            <div class="py-6 flex items-center justify-between">
+
+              <div class="flex items-center">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user3.jpg">
+                <div class="pr-2">
+                  <p class="pb-0.5 font-bold text-sm text-[#717171]">
+                    لادن مینایی
+                  </p>
+                  <p class="font-bold text-sm text-[#717171]">
+                    1400/08/11
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.6667 2.33366V12.3337H3.30841L2.33341 13.3087V2.33366H15.6667ZM15.6667 0.666992H2.33341C1.41675 0.666992 0.666748 1.41699 0.666748 2.33366V15.3253C0.666748 16.067 1.56675 16.442 2.09175 15.917L4.00008 14.0003H15.6667C16.5834 14.0003 17.3334 13.2503 17.3334 12.3337V2.33366C17.3334 1.41699 16.5834 0.666992 15.6667 0.666992Z"
+                    fill="#717171"/>
+                </svg>
+                <p class="pr-2 text-sm text-[#717171]">
+                  5 دیدگاه
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        <li class="rounded-lg  bg-white col-span-1 ">
+
+          <div class="relative pb-1 md:pb-2">
+            <img class="w-full max-h-96" src="@/static/images/posts/post4.jpg">
+            <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
+              آشپزی
+            </div>
+          </div>
+
+          <div class="px-4">
+            <p class="py-2 text-[#424242]">
+              چگونه مرغ را خرد کنیم؟
+            </p>
+            <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+              کاربردهای متنوع با ...
+            </div>
+            <div class="py-6 flex items-center justify-between">
+
+              <div class="flex items-center">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user3.jpg">
+                <div class="pr-2">
+                  <p class="pb-0.5 font-bold text-sm text-[#717171]">
+                    لادن مینایی
+                  </p>
+                  <p class="font-bold text-sm text-[#717171]">
+                    1400/08/11
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.6667 2.33366V12.3337H3.30841L2.33341 13.3087V2.33366H15.6667ZM15.6667 0.666992H2.33341C1.41675 0.666992 0.666748 1.41699 0.666748 2.33366V15.3253C0.666748 16.067 1.56675 16.442 2.09175 15.917L4.00008 14.0003H15.6667C16.5834 14.0003 17.3334 13.2503 17.3334 12.3337V2.33366C17.3334 1.41699 16.5834 0.666992 15.6667 0.666992Z"
+                    fill="#717171"/>
+                </svg>
+                <p class="pr-2 text-sm text-[#717171]">
+                  5 دیدگاه
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        <li class="rounded-lg  bg-white col-span-1 ">
+
+          <div class="relative pb-1 md:pb-2">
+            <img class="w-full max-h-96" src="@/static/images/posts/post1.jpg">
+            <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
+              آشپزی
+            </div>
+          </div>
+
+          <div class="px-4">
+            <p class="py-2 text-[#424242]">
               خواص گوشت بوقلمون
             </p>
             <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
@@ -115,7 +265,7 @@
             <div class="py-6 flex items-center justify-between">
 
               <div class="flex items-center">
-                <img class="max-h-12 max-w-12" src="@/static/images/user1.jpg">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user1.jpg">
                 <div class="pr-2">
                   <p class="pb-0.5 font-bold text-sm text-[#717171]">
                     مهتاب میکاییلی
@@ -143,10 +293,11 @@
           </div>
 
         </li>
+
         <li class="rounded-lg  bg-white col-span-1 ">
 
           <div class="relative pb-1 md:pb-2">
-            <img class="w-full max-h-96" src="@/static/images/posts/post1.jpg">
+            <img class="w-full max-h-96" src="@/static/images/posts/post2.jpg">
             <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
               آشپزی
             </div>
@@ -154,7 +305,7 @@
 
           <div class="px-4">
             <p class="py-2 text-[#424242]">
-              خواص گوشت بوقلمون
+              سس های سرو ماهی
             </p>
             <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
@@ -164,7 +315,107 @@
             <div class="py-6 flex items-center justify-between">
 
               <div class="flex items-center">
-                <img class="max-h-12 max-w-12" src="@/static/images/user1.jpg">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user2.jpg">
+                <div class="pr-2">
+                  <p class="pb-0.5 font-bold text-sm text-[#717171]">
+                    علی رضوانی
+                  </p>
+                  <p class="font-bold text-sm text-[#717171]">
+                    1400/09/03
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.6667 2.33366V12.3337H3.30841L2.33341 13.3087V2.33366H15.6667ZM15.6667 0.666992H2.33341C1.41675 0.666992 0.666748 1.41699 0.666748 2.33366V15.3253C0.666748 16.067 1.56675 16.442 2.09175 15.917L4.00008 14.0003H15.6667C16.5834 14.0003 17.3334 13.2503 17.3334 12.3337V2.33366C17.3334 1.41699 16.5834 0.666992 15.6667 0.666992Z"
+                    fill="#717171"/>
+                </svg>
+                <p class="pr-2 text-sm text-[#717171]">
+                  5 دیدگاه
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        <li class="rounded-lg  bg-white col-span-1 ">
+
+          <div class="relative pb-1 md:pb-2">
+            <img class="w-full max-h-96" src="@/static/images/posts/post3.jpg">
+            <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
+              آشپزی
+            </div>
+          </div>
+
+          <div class="px-4">
+            <p class="py-2 text-[#424242]">
+              طرز تهیه سوپ جو خوشمزه برای 4 نفر
+            </p>
+            <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+              کاربردهای متنوع با ...
+            </div>
+            <div class="py-6 flex items-center justify-between">
+
+              <div class="flex items-center">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user3.jpg">
+                <div class="pr-2">
+                  <p class="pb-0.5 font-bold text-sm text-[#717171]">
+                    لادن مینایی
+                  </p>
+                  <p class="font-bold text-sm text-[#717171]">
+                    1400/08/11
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.6667 2.33366V12.3337H3.30841L2.33341 13.3087V2.33366H15.6667ZM15.6667 0.666992H2.33341C1.41675 0.666992 0.666748 1.41699 0.666748 2.33366V15.3253C0.666748 16.067 1.56675 16.442 2.09175 15.917L4.00008 14.0003H15.6667C16.5834 14.0003 17.3334 13.2503 17.3334 12.3337V2.33366C17.3334 1.41699 16.5834 0.666992 15.6667 0.666992Z"
+                    fill="#717171"/>
+                </svg>
+                <p class="pr-2 text-sm text-[#717171]">
+                  5 دیدگاه
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        <li class="rounded-lg  bg-white col-span-1 ">
+
+          <div class="relative pb-1 md:pb-2">
+            <img class="w-full max-h-96" src="@/static/images/posts/post5.jpg">
+            <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
+              سلامتی
+            </div>
+          </div>
+
+          <div class="px-4">
+            <p class="py-2 text-[#424242]">
+              لیست شگفت انگیزی از خواص پرتقال
+            </p>
+            <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+              کاربردهای متنوع با ...
+            </div>
+            <div class="py-6 flex items-center justify-between">
+
+              <div class="flex items-center">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user1.jpg">
                 <div class="pr-2">
                   <p class="pb-0.5 font-bold text-sm text-[#717171]">
                     مهتاب میکاییلی
@@ -192,10 +443,11 @@
           </div>
 
         </li>
+
         <li class="rounded-lg  bg-white col-span-1 ">
 
           <div class="relative pb-1 md:pb-2">
-            <img class="w-full max-h-96" src="@/static/images/posts/post1.jpg">
+            <img class="w-full max-h-96" src="@/static/images/posts/post4.jpg">
             <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
               آشپزی
             </div>
@@ -203,7 +455,7 @@
 
           <div class="px-4">
             <p class="py-2 text-[#424242]">
-              خواص گوشت بوقلمون
+              چگونه مرغ را خرد کنیم؟
             </p>
             <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
@@ -213,62 +465,13 @@
             <div class="py-6 flex items-center justify-between">
 
               <div class="flex items-center">
-                <img class="max-h-12 max-w-12" src="@/static/images/user1.jpg">
+                <img class="max-h-12 max-w-12" src="~/static/images/users/user3.jpg">
                 <div class="pr-2">
                   <p class="pb-0.5 font-bold text-sm text-[#717171]">
-                    مهتاب میکاییلی
+                    لادن مینایی
                   </p>
                   <p class="font-bold text-sm text-[#717171]">
-                    1400/07/29
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex items-center">
-                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M15.6667 2.33366V12.3337H3.30841L2.33341 13.3087V2.33366H15.6667ZM15.6667 0.666992H2.33341C1.41675 0.666992 0.666748 1.41699 0.666748 2.33366V15.3253C0.666748 16.067 1.56675 16.442 2.09175 15.917L4.00008 14.0003H15.6667C16.5834 14.0003 17.3334 13.2503 17.3334 12.3337V2.33366C17.3334 1.41699 16.5834 0.666992 15.6667 0.666992Z"
-                    fill="#717171"/>
-                </svg>
-                <p class="pr-2 text-sm text-[#717171]">
-                  5 دیدگاه
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </li>
-        <li class="rounded-lg  bg-white col-span-1 ">
-
-          <div class="relative pb-1 md:pb-2">
-            <img class="w-full max-h-96" src="@/static/images/posts/post1.jpg">
-            <div class="absolute m-4 p-2 top-0 font-bold text-sm text-[#1E385A] text-center bg-[#E9EBEF] rounded">
-              آشپزی
-            </div>
-          </div>
-
-          <div class="px-4">
-            <p class="py-2 text-[#424242]">
-              خواص گوشت بوقلمون
-            </p>
-            <div class="pb-2 font-bold text-sm text-[#717171] leading-6">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
-              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
-              کاربردهای متنوع با ...
-            </div>
-            <div class="py-6 flex items-center justify-between">
-
-              <div class="flex items-center">
-                <img class="max-h-12 max-w-12" src="@/static/images/user1.jpg">
-                <div class="pr-2">
-                  <p class="pb-0.5 font-bold text-sm text-[#717171]">
-                    مهتاب میکاییلی
-                  </p>
-                  <p class="font-bold text-sm text-[#717171]">
-                    1400/07/29
+                    1400/08/11
                   </p>
                 </div>
               </div>
